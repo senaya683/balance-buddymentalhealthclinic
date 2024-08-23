@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BALANCE BUDDY Mental Health Monitoring Clinic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #007bff;
+            color: black;
+            padding: 1rem 0;
+            display: flex;
+            align-items: center;
+        }
+
+        header .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            flex: 1;
+            text-align: center;
+        }
+
+        header .logo {
+            flex: 0 0 auto;
+        }
+
+        header .logo img {
+            height: 100px;
+        }
+         nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .header-line {
+            height: 5px;
+            background: #0056b3;
+            border: none;
+            margin: 0;
+        }
+
+          .login-button {
+            position: absolute;
+            right: 0;
+            top: 1rem;
+            background: #b833ff;
+            color: white;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            transition: background 0.3s ease;
+        }
+
+        .login-button:hover {
+            background: #c70039;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h3 {
+            color: #000000;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .about-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .about-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .vision, .mission {
+            background-color: #FFCCCB;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            color: #000;
+        }
+
+        .vision {
+            float: left;
+            width: 45%;
+        }
+
+        .mission {
+            float: right;
+            width: 45%;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        footer {
+            background: #007bff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .header-line {
+            height: 5px;
+            background: #0056b3;
+            border: none;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="file:///C:/Users/USER/Downloads/blncbbdy.jpg" alt="Logo">
+        </div>
+        <h1>BALANCE BUDDY Mental Health Monitoring Clinic</h1>
+        <nav>
+            <ul>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="expert.html">OUR EXPERTS</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contactus.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <a href="login.html" class="login-button">LOGIN</a>
+    </header>
+    <hr class="header-line">
+    <div class="container">
+        <div class="about-section">
+            <img src="file:///C:/Users/USER/Downloads/aboutUs.jpg" alt="About Us Image">
+            <h1>About Us</h1>
+            <p>Here’s Our Story</p>
+            <p>Mind Heals Is A Well-Recognized Private Organization In Sri Lanka Oriented Towards Social Services, With The Primary Objective Of Providing Mental Health Services To Individuals. We Are Sri Lanka’s First Online Counselling Platform Determined In Providing Effective Counselling Services Through Instant-Messaging, Voice Calls, And Video Calls (Zoom Or Otherwise) From The Convenience Of One’s Own Home.</p>
+            <p>We Are Governed By A Panel Of Experts And Professionals In Mental Health Who Can Provide Various Psychotherapeutic Services To Help Individuals Overcome Adverse Emotional/ Psychological/ Mental Health Conditions. They Have Over 10 Decades Of Hands-On Experience In Supporting People Who Needed Help With Different Challenges In Life, Whether It Is About Treating Anxiety, A Serious Mental Health Problem, Or A Household Matter That Disturbs Your Way Of Life. They Aim To Identify The Unique Potentials Of Individuals And Help Them Improve Their Quality Of Lives To Build A Better Community.</p>
+            <p>Further, We Offer Various Value-Added Services To Corporates, Such As Customized Reports From Our Specialized Psychologists Maintaining Anonymity Of Employees, Receiving Resources Such As Blog Articles, Podcasts And Videos That Will Provide Individuals With Tips To Consistently Train Your Mind Along With Customized Webinars/Seminars On Selected Topics Relevant To Each Company All Around The Topic Of Metal Wellbeing.</p>
+            <p>Mind Heals Includes A Team Of Very Supportive And Friendly Staff Members Who Will Guide Your Employees Every Step Of The Way Throughout Their Whole Process Of Psychological Healing, From Finding The Best Counsellor And Being Responsive In Any Problem. Until The End Of Your Journey At Mind Heals, The Team Will Be With You Always, While Completely Adhering To Ethical Guidelines And Principles Of Counselling To Ensure A Highly Secure And Trustworthy Environment When Supporting You.</p>
+        </div>
+        <div class="vision">
+            <h2>Our Vision</h2>
+            <p>Mind Heals Envisions In Becoming The Most Trusted And Valued Mental Health Care Platform In Sri Lanka.</p>
+        </div>
+        <div class="mission">
+            <h2>Our Mission</h2>
+            <p>Mind Heals Aims To Deliver Mental Health Support Services Through Qualified And Experienced Mental Health Professionals In Sri Lanka Whilst Maintaining Accurate Quality Standards And Ethical Principles.</p>
+            <p>Our Mission is must in to moving light pink square</p>
+        </div>
+        <div class="clear"></div>
+        <h3>We Aim To:</h3>
+        <ul>
+            <li>To Make Mental Health Care Convenient, Effective, Confidential, And Affordable To All.</li>
+            <li>To Provide An Easily Accessible Platform For Trained Mental Health Practitioners To Interact With Clients In A Safe And Secure Manner.</li>
+            <li>To Enhance Mental Health Awareness And Promote Mental Health Education.</li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024 BALANCE BUDDY Mental Health Monitoring Clinic. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

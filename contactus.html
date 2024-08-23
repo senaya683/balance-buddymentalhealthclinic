@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BALANCE BUDDY Mental Health Monitoring Clinic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            padding-top: 60px; /* Adjust based on header height */
+            padding-bottom: 60px; /* Adjust based on footer height */
+        }
+
+        header {
+            background: #007bff;
+            color: black;
+            padding: 1rem 0;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000; /* Ensure it stays above content */
+        }
+
+        header .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            flex: 1;
+            text-align: center;
+        }
+
+        header .logo {
+            flex: 0 0 auto;
+        }
+
+        header .logo img {
+            height: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .header-line {
+            height: 5px;
+            background: #0056b3;
+            border: none;
+            margin: 0;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: moveUp 2s ease-in-out forwards;
+        }
+
+        @keyframes moveUp {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        img.contact-image {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #0096FF;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        footer {
+            background: #007bff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .login-button {
+            position: absolute;
+            right: 0;
+            top: 1rem;
+            background: #b833ff;
+            color: white;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            transition: background 0.3s ease;
+        }
+
+        .login-button:hover {
+            background: #c70039;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="C:/Users/USER/Downloads/blncbbdy.jpg" alt="Logo">
+            </div>
+            <h1>BALANCE BUDDY Mental Health Monitoring Clinic</h1>
+            <nav>
+                <ul>
+                   <li><a href="aboutus.html">ABOUTUS</a></li>
+                   <li><a href="expert.html">OUR EXPERTS</a></li>
+                   <li><a href="services.html">SERVICES</a></li>
+                   <li><a href="contactus.html">CONTACTUS</a></li>
+                </ul>
+            </nav>
+            <button class="login-button">LOGIN</button>
+			<a href="login.html" class="login-button">LOGIN</a>
+        </div>
+    </header>
+    <div class="content">
+        <h2>CONTACT US</h2>
+        <img class="contact-image" src="C:/Users/USER/Downloads/ContactUs.jpg" alt="Contact Us">
+        <h3>Let's Connect</h3>
+        <p>Call us on our support Line or reach us via our social media channels.</p>
+        <p>+94 75 666 1111</p>
+        <h3>Let us know your thoughts</h3>
+        <p>Send us your comments, feedback, suggestions</p>
+        <p>info@balancebuddy.org</p>
+        
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="contact">Contact Number:</label>
+            <input type="tel" id="contact" name="contact" required>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 BALANCE BUDDY Mental Health Monitoring Clinic. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

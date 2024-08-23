@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Experts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #007bff;
+            color: black;
+            padding: 1rem 0;
+            display: flex;
+            align-items: center;
+        }
+
+        header .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            flex: 1;
+            text-align: center;
+        }
+
+        header .logo {
+            flex: 0 0 auto;
+        }
+
+        header .logo img {
+            height: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .header-line {
+            height: 5px;
+            background: #0056b3;
+            border: none;
+            margin: 0;
+        }
+
+        .our-experts {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .profile-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .profile {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-color: white;
+            animation: moveUpDown 3s ease-in-out infinite;
+        }
+
+        @keyframes moveUpDown {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .profile h2 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        .profile p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .profile .buttons {
+            margin-top: 10px;
+        }
+
+        .profile .buttons button {
+            background-color: #E91E63;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .profile .specializations {
+            margin-top: 10px;
+        }
+
+        .profile .specializations p {
+            margin: 5px 0;
+        }
+
+        .search-box {
+            margin-top: 10px;
+        }
+
+        footer {
+            background: #007bff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .login-button {
+            position: absolute;
+            right: 0;
+            top: 1rem;
+            background: #b833ff;
+            color: white;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            transition: background 0.3s ease;
+        }
+
+        .login-button:hover {
+            background: #c70039;
+        }
+
+        .center-img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="C:/Users/USER/Downloads/blncbbdy.jpg" alt="Logo">
+            </div>
+            <h1>BALANCE BUDDY Mental Health Monitoring Clinic</h1>
+            <nav>
+                <ul>
+                   <li><a href="aboutus.html">ABOUTUS</a></li>
+                   <li><a href="expert.html">OUR EXPERTS</a></li>
+                   <li><a href="services.html">SERVICES</a></li>
+                   <li><a href="contactus.html">CONTACTUS</a></li>
+                </ul>
+            </nav>
+            <button class="login-button">LOGIN</button>
+			<a href="login.html" class="login-button">LOGIN</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <img src="C:/Users/USER/Downloads/ourexperts.jpg" alt="Our Experts" class="header-img center-img">
+
+        <div class="our-experts">
+            <h2>Meet Our Team of Expert Psychologists</h2>
+        </div>
+
+        <div class="profile-container">
+            <!-- Profile 1 -->
+            <div class="profile">
+                <img src="C:/Users/USER/Downloads/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg" alt="DR. Tom Hanks">
+                <h2>COUNSELLING PSYCHOLOGIST<br>DR. Tom Hanks</h2>
+                <p>Doctor of Philosophy (Phd) – 2016 University of Kelaniya, Sri Lanka<br>
+                    Master of Philosophy(M.phil) -2011 University of Sri Jayewardenepura</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Specializations">
+                </div>
+                <div class="specializations">
+                    <p>Addictions and Habits</p>
+                    <p>Anger Management</p>
+                    <p>Anxiety/ Depression/ Phobia</p>
+                    <p>Counselling for patients with non-communicable diseases</p>
+                    <p>Educational problems</p>
+                </div>
+                <div class="buttons">
+                    <button>Payment</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            <!-- Profile 2 -->
+            <div class="profile">
+                <img src="C:/Users/USER/Downloads/pic-team-1.jpg" alt="DR. Scarlett Johansson">
+                <h2>COUNSELLING PSYCHOLOGIST<br>DR. Scarlett Johansson</h2>
+                <p>MPHIL (CLINICAL PSYCH.), BSC (HONS.) PSYCH., DRAMA THERAPY, PROF. CERT (EXIST. THERAPY).<br>
+                    SPECIALIZATIONS: INDIVIDUAL COUNSELLING, GROUP/ COUPLES THERAPY, CAREER COUNSELLING, IQ</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Specializations">
+                </div>
+                <div class="specializations">
+                    <p>Addictions and Habits</p>
+                    <p>Anger Management</p>
+                    <p>Anxiety/ Depression/ Phobia</p>
+                    <p>Counselling for patients with non-communicable diseases</p>
+                    <p>Educational problems</p>
+                </div>
+                <div class="buttons">
+                    <button>Payment</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            <!-- Profile 3 -->
+            <div class="profile">
+                <img src="C:/Users/USER/Downloads/istockphoto-1330046035-612x612.jpg" alt="DR. Angelina Jolie">
+                <h2>COUNSELLING PSYCHOLOGIST<br>DR. Angelina Jolie</h2>
+                <p>PHD - Psychology (Reading) Msc. in Counseling Psychology - Girne American University (2017)<br>
+                    MA in Buddhist Studies (Buddhist psychology & Buddhist counseling) – University of Kelaniya (2012)</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Specializations">
+                </div>
+                <div class="specializations">
+                    <p>Anger Management</p>
+                    <p>Anxiety/ Depression/ Phobia</p>
+                    <p>Counselling for patients with non-communicable diseases</p>
+                    <p>Educational problems</p>
+                    <p>Emotional intelligence</p>
+                    <p>Mental disorders associated with aging</p>
+                    <p>Mental Health Calmness</p>
+                </div>
+                <div class="buttons">
+                    <button>Payment</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            <!-- Profile 4 -->
+            <div class="profile">
+                <img src="C:/Users/USER/Downloads/istockphoto-1311511363-612x612.jpg" alt="DR. Leonardo DiCaprio">
+                <h2>PSYCHOLOGICAL COUNSELOR, ART THERAPIST AND YOGA TRAINER<br>DR. Leonardo DiCaprio</h2>
+                <p>PHD - University of Visual and Performing Arts, Colombo<br>
+                    Master of philosophy - Clinical Psychology (Colombo)<br>
+                    Bachelor of Science - Psychology and Counseling (Colombo)</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Specializations">
+                </div>
+                <div class="specializations">
+                    <p>Addictions and Habits</p>
+                    <p>Anger Management</p>
+                    <p>Anxiety/ Depression/ Phobia</p>
+                    <p>Counselling for patients with non-communicable diseases</p>
+                    <p>Mental disorders associated with aging</p>
+                    <p>Mental Health Calmness</p>
+                </div>
+                <div class="buttons">
+                    <button>Payment</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            <!-- Profile 5 -->
+            <div class="profile">
+                <img src="C:/Users/USER/Downloads/gettyimages-1468678603-612x612.jpg" alt="DR. Anne Hathaway">
+                <h2>COUNSELING PSYCHOLOGIST<br>DR. Anne Hathaway</h2>
+                <p>Master's degree, Applied Psychology - Coventry University (2017 - 2018)<br>
+                    Bachelor's degree, Psychology - Girne American University (2012 - 2015)</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Specializations">
+                </div>
+                <div class="specializations">
+                    <p>Anger Management</p>
+                    <p>Anxiety/ Depression/ Phobia</p>
+                    <p>Counselling for patients with non-communicable diseases</p>
+                    <p>Educational problems</p>
+                    <p>Emotional intelligence</p>
+                    <p>Mental Health Calmness</p>
+                </div>
+                <div class="buttons">
+                    <button>Payment</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            <!-- Profile 6 -->
+            <div class="profile">
+                <img src="C:/Users/USER/Downloads/pexels-mikhail-nilov-8942523.jpg" alt="DR. Meryl Streep">
+                <h2>PSYCHOLOGIST/ COUNSELOR<br>DR. Meryl Streep</h2>
+                <p>Masters in Counseling Psychology, Bachelors in Counseling, Graduate Diploma in Counseling, Graduate Diploma in Alcohol and other drugs</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Specializations">
+                </div>
+                <div class="specializations">
+                    <p>Anger Management</p>
+                    <p>Anxiety/ Depression/ Phobia</p>
+                    <p>Counselling for patients with non-communicable diseases</p>
+                    <p>Educational problems</p>
+                    <p>Emotional intelligence</p>
+                    <p>Mental Health Calmness</p>
+                    <p>Mindfulness Improvement</p>
+                </div>
+                <div class="buttons">
+                    <button>Payment</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            <!-- Profile 7 -->
+            <div class="profile">
+                <img src="C:/Users/USER/Downloads/pexels-tima-miroshnichenko-5452201.jpg" alt="DR. Julia Roberts">
+                <h2>PSYCHOLOGIST/ SENIOR LECTURER<br>DR. Julia Roberts</h2>
+                <p>MPHILL (CLINICAL PSYCH), MSC (APPLIED PSYCH.), BA (HONS.)PSYCH, MEMBER OF SLPA.<br>
+                    SPECIALIZATIONS: INDIVIDUAL COUNSELLING, CHILD & ADOLESCENT COUNSELLING, CLINICAL PSYCHOLOGICAL</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Specializations">
+                </div>
+                <div class="specializations">
+                    <p>Addictions and Habits</p>
+                    <p>Anger Management</p>
+                    <p>Anxiety/ Depression/ Phobia</p>
+                    <p>Counselling for patients with non-communicable diseases</p>
+                    <p>Educational problems</p>
+                </div>
+                <div class="buttons">
+                    <button>Payment</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            <!-- Profile 8 -->
+            <div class="profile">
+                <img src="C:/Users/USER/Downloads/pexels-shvetsa-4167541.jpg" alt="DR. Sandra Bullock">
+                <h2>PSYCHOLOGIST/ LECTURER<br>DR. Sandra Bullock</h2>
+                <p>PHD - University Of Visual And Performing Arts, Colombo<br>
+                    Master Of Philosophy - Clinical Psychology (Colombo)<br>
+                    Bachelor Of Science - Psychology And Counseling (Colombo)<br>
+                    Diploma In Psychology And Counseling (Ireland, Galway)<br>
+                    Diploma In Sex Therapy (London)</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Specializations">
+                </div>
+                <div class="specializations">
+                    <p>Addictions and Habits</p>
+                    <p>Anger Management</p>
+                    <p>Anxiety/ Depression/ Phobia</p>
+                    <p>Counselling for patients with non-communicable diseases</p>
+                    <p>Educational problems</p>
+                </div>
+                <div class="buttons">
+                    <button>Payment</button>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 BALANCE BUDDY Mental Health Monitoring Clinic. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

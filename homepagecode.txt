@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BALANCE BUDDY Mental Health Monitoring Clinic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #007bff;
+            color: black;
+            padding: 1rem 0;
+            display: flex;
+            align-items: center;
+        }
+
+        header .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            flex: 1;
+            text-align: center;
+        }
+
+        header .logo {
+            flex: 0 0 auto;
+        }
+
+        header .logo img {
+            height: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .header-line {
+            height: 5px;
+            background: #0056b3;
+            border: none;
+            margin: 0;
+        }
+
+        .video-background {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+
+        .video-background video {
+            width: 100%;
+            height: auto;
+        }
+
+        section#home {
+            padding: 2rem;
+            text-align: center;
+            background: #f0f0f0;
+            position: relative;
+        }
+
+        section#home h2 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        section#home p {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+
+        .gif-container {
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        .gif-container video {
+            width: 60%;
+            max-width: 600px;
+        }
+
+        .feature-section {
+            background: #f0f0f0;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .feature-container {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .feature-box {
+            background: #007bff;
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .feature-box h3 {
+            margin: 0 0 1rem;
+        }
+
+        .feature-box p {
+            font-size: 1rem;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        footer {
+            background: #007bff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .login-button {
+            position: absolute;
+            right: 0;
+            top: 1rem;
+            background: #b833ff;
+            color: white;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            transition: background 0.3s ease;
+        }
+
+        .login-button:hover {
+            background: #c70039;
+        }
+
+        .moving-image {
+            width: 100px;
+            height: auto;
+            animation: moveSideToSide 5s ease-in-out infinite alternate;
+            margin-top: 1rem;
+        }
+
+        @keyframes moveSideToSide {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="C:\Users\USER\Downloads\blncbbdy.jpg" alt="Logo">
+            </div>
+            <h1>BALANCE BUDDY Mental Health Monitoring Clinic</h1>
+            <nav>
+                <ul>
+				    <li><a href="aboutus.html">ABOUTUS</a></li>
+                    <li><a href="expert.html">OUR EXPERTS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contactus.html">CONTACTUS</a></li>
+					
+                </ul>
+            </nav>
+            <button class="login-button">LOGIN</button>
+			
+			<a href="login.html" class="login-button">LOGIN</a>
+
+        </div>
+    </header>
+    <div class="video-background">
+        <video src="C:\Users\USER\Downloads\5234724-hd_1920_1080_25fps.mp4" autoplay loop muted></video>
+    </div>
+    <hr class="header-line">
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Your Wellness Journey</h2>
+            <img class="moving-image" src="C:\Users\USER\Downloads\wish-pic1.png" alt="Moving Image">
+            <p>We offer a variety of tools and resources to help you manage your mental health effectively. Explore our services, access valuable resources, and find support.</p>
+            <div class="gif-container">
+                <video src="4769542-uhd_4096_2160_25fps.mp4" autoplay loop muted></video>
+            </div>
+        </div>
+    </section>
+    <section class="feature-section">
+        <div class="container">
+            <h2>Why Choose BALANCE BUDDY</h2>
+            <div class="feature-container">
+                <div class="feature-box">
+                    <h3>A Safe Space You Can Trust</h3>
+                    <p>With anonymity and online services, we consider your confidentiality our utmost priority. Our experts are here to listen to your every story like a friend.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Around The Clock Care Line</h3>
+                    <p>You can feel overwhelmed at any moment during your day. But we are here for you always. Call us anytime, and we are here to help you.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Accessibility & Convenience</h3>
+                    <p>Whether in your car or at the comfort of your home, you can always set up a session with your therapist at the time you really need it: video or non-video.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mental Health Management. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
